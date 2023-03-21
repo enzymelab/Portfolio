@@ -1,51 +1,85 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, Progressbar, SectionTitle, Progressbarspan } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
-
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <p><br /></p>
-
-    <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
-    </SectionText>
+    <SectionTitle>My Skills</SectionTitle>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Front End</ListTitle>
+          <ListTitle>HTML5</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            90%
           </ListParagraph>
+          <Progressbar >
+            <Progressbarspan width="90%"></Progressbarspan>
+          </Progressbar>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
         <ListContainer>
-          <ListTitle>Back End</ListTitle>
+          <ListTitle>CSS3</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            Node.js and Databases
+            90%
           </ListParagraph>
+          <Progressbar >
+            <Progressbarspan width="90%"></Progressbarspan>
+          </Progressbar>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>JavaScript</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            tools like Figma
+            75%
           </ListParagraph>
+          <Progressbar >
+            <Progressbarspan width="75%"></Progressbarspan>
+          </Progressbar>
         </ListContainer>
       </ListItem>
     </List>
-  </Section>
+    <List>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>NodeJS</ListTitle>
+          <ListParagraph>
+            70%
+          </ListParagraph>
+          <Progressbar >
+            <Progressbarspan width="70%"></Progressbarspan>
+          </Progressbar>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>ReactJS</ListTitle>
+          <ListParagraph>
+            80%
+          </ListParagraph>
+          <Progressbar >
+            <Progressbarspan width="80%"></Progressbarspan>
+          </Progressbar>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Python</ListTitle>
+          <ListParagraph>
+            70%
+          </ListParagraph>
+          <Progressbar >
+            <Progressbarspan width="70%"></Progressbarspan>
+          </Progressbar>
+        </ListContainer>
+      </ListItem>
+    </List>
+
+
+  </Section >
 );
 
 export default Technologies;
