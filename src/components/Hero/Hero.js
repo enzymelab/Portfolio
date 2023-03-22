@@ -13,9 +13,13 @@ const Hero = (props) => (
       </SectionTitle>
       <SectionText>
 
-        Hi, I'm Bin Li. A student learning the front end of web developer. I am new to web develop and love to do web develop. I will become an excellent web developer.
+        Hi, I'm Bin Li. A student learning the front end of web develope. I am new but love to design webpage. I have enthusiasm for learn and work on Web develope.
       </SectionText>
-      <Button onClick={() => { window.location = "http://linkedin.com" }}> Download CV</Button>
+      <form method="get" action="BLresume.docx">
+        <Button type="submit">Download CV</Button>
+      </form>
+
+      {/* <Button onClick={() => { window.location = "http://linkedin.com" }}> Download CV</Button> */}
     </LeftSection>
   </Section>
 );

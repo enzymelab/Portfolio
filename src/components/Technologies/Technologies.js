@@ -10,7 +10,7 @@ const Technologies = () => (
     <List>
       <ListItem>
         <ListContainer>
-          <ListTitle>HTML5</ListTitle>
+          <ListTitle>HTML</ListTitle>
           <ListParagraph>
             90%
           </ListParagraph>
@@ -21,7 +21,7 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <ListContainer>
-          <ListTitle>CSS3</ListTitle>
+          <ListTitle>CSS</ListTitle>
           <ListParagraph>
             90%
           </ListParagraph>
